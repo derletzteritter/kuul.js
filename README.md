@@ -15,12 +15,14 @@ npm install --save kuul.js
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'kuul.js'
+import { KuulCard } from 'kuul.js'
 import 'kuul.js/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <KuulCard title="Name">Some content</KuulCard>
+    )
   }
 }
 ```
