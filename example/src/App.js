@@ -1,10 +1,12 @@
 import React from 'react'
 
-import { ExampleComponent } from 'kuul.js'
+import { KuulCard } from 'kuul.js'
 import 'kuul.js/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <KuulCard title="Hello">Yoo</KuulCard>
+  )
 }
 
 export default App

@@ -1,9 +1,17 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.cardDiv {
+  box-sizing: border-box;
+  background: blue;
+  height: 200px;
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+
+.cardHeader h2 {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
 }
